@@ -58,6 +58,7 @@ nav li:hover .icon {
 }
 .sub-list {
     display: none;
+    z-index: 100;
 }
 nav li:hover .sub-list {
     display: block;
