@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+body {
+    font-family: Roboto, sans-serif;
+}
 .wrapper {
     max-width: 1600px;
     margin: 0 auto;
@@ -11,10 +14,23 @@ header {
     margin: 0 auto;
     padding: 0 40px;
 }
+h1 {
+    width: 195px;
+    height: 105px;
+    margin-top: 15px;
+    border: 1px solid;
+}
+
+.inline-list li {
+    display: inline-block;
+}
 
 .pull-right {
     float: right;
 }
 .pull-left {
     float: left;
+}
+.clear {
+    clear: both;
 }
