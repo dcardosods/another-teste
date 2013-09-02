@@ -65,20 +65,32 @@ nav li:hover .sub-list {
     width: 225px;
     margin: 17px 0 0 -65px;
     padding: 40px 0 0 0;
-    background: linear-gradient(to bottom, #ccc 0%,#fff 100%);
+    background: linear-gradient(to bottom, #ddd 0%,#fff 100%);
 }
-nav li:hover .sub-list li {
+.sub-list li {
     color: #666;
-    width: 100%;
+    width: 225px;
     height: auto;
     padding: 7px 30px;
     font-size: 11px;
     font-family: Verdana;
     text-align: left;
 }
-nav li:hover .sub-list li:hover {
+.sub-list li:hover {
     color: #666;
     background-color: #ccc;
+}
+.sub-sub-list {
+    display: none;
+}
+.sub-list li:hover .sub-sub-list {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 225px;
+    margin: 0;
+    padding: 12px 0 0 0;
+    background: linear-gradient(to bottom, #ddd 0%,#fff 100%);
 }
 
 .icon {
