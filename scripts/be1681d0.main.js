@@ -1,0 +1,1 @@
+!function(){var a=function(){for(var a=document.querySelectorAll(".slider article"),b=0,c=a.length;c>b;b++)a.item(b).classList.toggle("hide")};[].forEach.call(document.querySelectorAll(".slider .control"),function(b){b.addEventListener("click",a,!1)})}();
