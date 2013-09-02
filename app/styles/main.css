@@ -20,7 +20,25 @@ h1 {
     margin-top: 15px;
     border: 1px solid;
 }
+.info-bar li {
+    height: 30px;
+    padding: 4px 15px 4px 0;
+    color: #203c81;
+    font-size: 14px;
+}
+.info-bar li.invert-color {
+    padding: 4px 15px;
+    color: #fff;
+    background-color: #203c81;
+}
 
+.icon {
+    color: #ccc;
+}
+.inline-list {
+    margin: 0;
+    padding-left: 0;
+}
 .inline-list li {
     display: inline-block;
 }
