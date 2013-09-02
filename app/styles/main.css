@@ -7,7 +7,6 @@ body {
 .wrapper {
     max-width: 1600px;
     margin: 0 auto;
-    overflow: hidden;
 }
 header {
     width: 1000px;
@@ -49,12 +48,37 @@ nav li .text {
     display: block;
 }
 nav li:hover {
+    position: relative;
     color: #fff;
     background-color: #33cccc;
     cursor: pointer;
 }
 nav li:hover .icon {
     color: inherit;
+}
+.sub-list {
+    display: none;
+}
+nav li:hover .sub-list {
+    display: block;
+    position: absolute;
+    width: 225px;
+    margin: 17px 0 0 -65px;
+    padding: 40px 0 0 0;
+    background: linear-gradient(to bottom, #ccc 0%,#fff 100%);
+}
+nav li:hover .sub-list li {
+    color: #666;
+    width: 100%;
+    height: auto;
+    padding: 7px 30px;
+    font-size: 11px;
+    font-family: Verdana;
+    text-align: left;
+}
+nav li:hover .sub-list li:hover {
+    color: #666;
+    background-color: #ccc;
 }
 
 .icon {
