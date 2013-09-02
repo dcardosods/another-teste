@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+.wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.pull-right {
+    float: right;
+}
+.pull-left {
+    float: left;
+}
