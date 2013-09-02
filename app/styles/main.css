@@ -13,7 +13,7 @@ header {
     margin: 0 auto;
     padding: 0 40px;
 }
-h1 {
+.title {
     width: 195px;
     height: 105px;
     margin-top: 15px;
@@ -93,6 +93,55 @@ nav li:hover .sub-list {
     background: linear-gradient(to bottom, #ddd 0%,#fff 100%);
 }
 
+section {
+    background: url('../images/slider-bg.jpg') no-repeat center center;
+}
+.slider {
+    position: relative;
+    max-width: 1280px;
+    height: 350px;
+    margin: 0 auto;
+    padding: 60px 250px;
+}
+.control {
+    position: absolute;
+    top: 160px;
+    display: inline-block;
+    border-width: 30px;
+    border-style: solid;
+}
+.control-right {
+    right: 0;
+    border-color: transparent transparent transparent #fff;
+}
+.control-left {
+    left: 0;
+    border-color: transparent #fff transparent transparent;
+}
+article {
+    overflow: hidden;
+    color: #fff;
+}
+article > img {
+    border: 1px solid #fff;
+}
+article > div {
+    width: 400px;
+    margin-left: 60px;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
 .icon {
     color: #ccc;
 }
