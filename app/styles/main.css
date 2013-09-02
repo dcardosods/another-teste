@@ -68,6 +68,15 @@ nav li:hover .sub-list {
     padding: 40px 0 0 0;
     background: linear-gradient(to bottom, #ddd 0%,#fff 100%);
 }
+.sub-list:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 94px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: #33cccc transparent transparent transparent;
+}
 .sub-list li {
     color: #666;
     width: 225px;
@@ -111,6 +120,9 @@ section {
     border-width: 30px;
     border-style: solid;
 }
+.control:hover {
+    cursor: pointer;
+}
 .control-right {
     right: 0;
     border-color: transparent transparent transparent #fff;
@@ -120,6 +132,7 @@ section {
     border-color: transparent #fff transparent transparent;
 }
 article {
+    margin-bottom: 60px;
     overflow: hidden;
     color: #fff;
 }
@@ -162,4 +175,7 @@ article > div {
 }
 .clear-right {
     clear: right;
+}
+.hide {
+    display: none;
 }
