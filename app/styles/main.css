@@ -31,6 +31,31 @@ h1 {
     color: #fff;
     background-color: #203c81;
 }
+nav {
+    margin-top: 45px;
+}
+nav li {
+    width: 90px;
+    height: 90px;
+    padding: 12px 0;
+    color: #203c81;
+    font-size: 16px;
+    text-align: center;
+}
+nav li .icon {
+    font-size: 30px;
+}
+nav li .text {
+    display: block;
+}
+nav li:hover {
+    color: #fff;
+    background-color: #33cccc;
+    cursor: pointer;
+}
+nav li:hover .icon {
+    color: inherit;
+}
 
 .icon {
     color: #ccc;
@@ -49,6 +74,6 @@ h1 {
 .pull-left {
     float: left;
 }
-.clear {
-    clear: both;
+.clear-right {
+    clear: right;
 }
